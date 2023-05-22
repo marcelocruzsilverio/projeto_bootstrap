@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício Módulo 13</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container pt-4 pb-4">
+      <!-- Carousel de Imagens -->
+      <div
+        id="carousel-example"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/boeing-747-800.jpg"
+              class="d-block w-100"
+              alt="iagem avião da boeing modelo 747-800"
+            />
+            <div class="carousel-caption">
+              <h2>Boeing 747-800</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/airbus-a380.jpg" class="d-block w-100" alt="imagem avião da airbus modelo A380" />
+            <div class="carousel-caption">
+              <h2>Airbus A380</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/embraer-e195.jpg"
+              class="d-block w-100"
+              alt="imagem avião da embraer modelo E195"
+            />
+            <div class="carousel-caption">
+              <h2>Embraer E195</h2>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carousel-example"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carousel-example"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </a>
+      </div>
+      <!-- Layout com Grid -->
+      <div class="container mt-4 g-0">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <article class="card">
+                <header class="card-header">Boeing</header>
+                  <img src="./images/boeing_747.jpg" alt="Descrição da imagem">
+                <div class="card-body">
+                  <h4 class="card-title">Microsoft Flight Simulator</h4>
+                  <p class="card-text">
+                    Conheça o simulador de voo mais moderno de todos os tempos.
+                  </p>
+                  <a href="https://www.flightsimulator.com/" target="_blank" class="btn btn-primary">Saiba mais</a>
+                </div>
+              </article>
+            </div>
+          
+          <div class="col">
+            <article class="card">
+              <header class="card-header">Airbus</header>
+                <img src="./images/airbus.jpg" alt="Descrição da imagem">
+              <div class="card-body">
+                <h4 class="card-title">Microsoft Flight Simulator</h4>
+                <p class="card-text">
+                  Conheça o simulador de voo mais moderno de todos os tempos.
+                </p>
+                <a href="https://www.flightsimulator.com/" target="_blank" class="btn btn-primary">Saiba mais</a>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card">
+              <header class="card-header">Embraer</header>
+                <img src="./images/embraer.jpg" alt="Descrição da imagem">
+              <div class="card-body">
+                <h4 class="card-title">Microsoft Flight Simulator</h4>
+                <p class="card-text">
+                  Conheça o simulador de voo mais moderno de todos os tempos.
+                </p>
+                <a href="https://www.flightsimulator.com/" target="_blank" class="btn btn-primary">Saiba mais</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
